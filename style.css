@@ -1,0 +1,105 @@
+body {
+  font-family: sans-serif, cursive;
+  margin: auto;
+  padding: 0px;
+  background-color: rgb(143, 235, 235);
+}
+.heroImage {
+  width: 99%;
+  height: 420px;
+  position: relative;
+}
+
+.quickSearchItems .filterItem {
+  border: solid 1px rgb(131, 68, 68);
+  display: inline-block;
+  width: 33%;
+  height: 200px;
+  padding: 10px;
+  color: rgb(74, 139, 192);
+  background-color: aqua;
+}
+
+.quickSearchItems .filterItem div {
+  display: inline-block;
+}
+
+.information {
+  padding: 10px;
+}
+
+div {
+  box-sizing: border-box !important;
+}
+
+.selectLocation {
+  position: absolute;
+  top: 100px;
+  left: 433px;
+  font-size: 26px;
+}
+.selectLocation h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  max-width: 400px;
+}
+.title h1 {
+  margin-left: 23%;
+  border: 1px solid red;
+  width: 800px;
+  padding-left: 20px;
+  margin-top: 20px;
+  background-color: red;
+  border-radius: 15px 0 15px 0;
+  color: white;
+}
+h3 {
+  margin-bottom: 20px;
+  margin-top: -5%;
+  margin-left: 30%;
+}
+/*coupon css  */
+
+.container {
+  width: 330px;
+  margin-top: 10px;
+  border-radius: 10px 10px 50px 50px;
+  height: 350px;
+  background-color: black;
+  color: white;
+  z-index: 12;
+  position: relative;
+}
+
+.logo {
+  width: 95px;
+}
+.offer {
+  margin: 10px 0px 10px 80px;
+  text-decoration: underline;
+  font-size: 1rem;
+}
+
+#code {
+  font-size: 20px;
+  border: 1px solid white;
+  color: black;
+  width: 120px;
+  margin-left: 25%;
+  background-color: white;
+  margin-bottom: 20px;
+}
+#copy {
+  border: 1px solid white;
+  color: black;
+  background-color: white;
+  width: 150px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin-left: 20%;
+  cursor: pointer;
+}
